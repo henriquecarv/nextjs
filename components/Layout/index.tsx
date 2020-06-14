@@ -9,7 +9,7 @@ interface IProps {
 
 export default function ({ pageTitle, children }: IProps) {
   return (
-    <div className="Layout">
+    <div className="Layout Layout__container">
       <Head pageTitle={pageTitle} />
       {children}
       <style jsx>{globalStyles}</style>

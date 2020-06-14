@@ -1,15 +1,6 @@
 import css from "styled-jsx/css";
 
 export const styles = css`
-  .container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   main {
     padding: 5rem 0;
     flex: 1;

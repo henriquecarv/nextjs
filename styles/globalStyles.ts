@@ -12,4 +12,13 @@ export const globalStyles = css.global`
   * {
     box-sizing: border-box;
   }
+
+  .Layout__container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;

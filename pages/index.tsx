@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Home = () => (
   <Layout pageTitle="Create Next App">
-    <div className="container">
+    <>
       <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -44,10 +44,10 @@ const Home = () => (
           </a>
         </div>
       </main>
-      <Footer />
 
       <style jsx>{styles}</style>
-    </div>
+    </>
+    <Footer />
   </Layout>
 );
 
