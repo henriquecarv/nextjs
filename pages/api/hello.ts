@@ -1,7 +1,6 @@
 import { NowRequest, NowResponse } from "@vercel/node";
+import greeting from "./../../json/greeting.json";
 
 export default (_: NowRequest, res: NowResponse) => {
-  const greetings = "Hello Vercel!";
-
-  res.json({ greetings });
+  res.json(greeting);
 };
