@@ -11,7 +11,7 @@ const Home = () => (
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by editing <code>pages/index.tsx</code>
         </p>
 
         <div className="grid">
