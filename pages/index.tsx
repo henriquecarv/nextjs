@@ -44,10 +44,10 @@ const Home = () => (
           </a>
         </div>
       </main>
+      <Footer />
 
       <style jsx>{styles}</style>
     </div>
-    <Footer />
   </Layout>
 );
 
