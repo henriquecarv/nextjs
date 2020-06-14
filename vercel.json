@@ -3,7 +3,7 @@
     "api/videos.ts": {
       "includeFiles": "_files/videos"
     },
-    "api/hell.ts": {
+    "api/hello.ts": {
       "includeFiles": "_files/json"
     }
   }
