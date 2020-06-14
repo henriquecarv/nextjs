@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/videos.ts": {
+      "includeFiles": "_files/videos"
+    },
+    "api/hell.ts": {
+      "includeFiles": "_files/json"
+    }
+  }
+}
