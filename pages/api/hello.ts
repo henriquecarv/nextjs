@@ -1,11 +1,6 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { join } from "path";
-const greeting: Object = require(join(
-  __dirname,
-  "_files/json",
-  "greeting.json"
-));
+import { sayHello } from "../../server/controllers/helloController";
 
-export default (_: NowRequest, res: NowResponse) => {
-  res.json(greeting);
+export default (req: NowRequest, res: NowResponse) => {
+  sayHello(req, res);
 };

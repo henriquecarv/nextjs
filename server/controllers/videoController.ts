@@ -5,7 +5,7 @@ import { join } from "path";
 
 export const streamVideo = async (_: NowRequest, res: NowResponse) => {
   const fileName = "file_example_MP4_1920_18MG.mp4";
-  const fileDirectoryPath = join(__dirname, "../videos");
+  const fileDirectoryPath = join(process.cwd(), "/server/_files/videos");
 
   const videoFile = await getFile(fileDirectoryPath, fileName);
 
