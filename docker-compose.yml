@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  stream:
+    build:
+      context: ./
+    container_name: stream
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - ${PORT}:${PORT}
+    networks:
+      - stream
+
+networks:
+  stream:
+    driver: bridge

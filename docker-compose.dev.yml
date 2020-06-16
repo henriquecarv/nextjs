@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  stream:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    container_name: stream-dev
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
